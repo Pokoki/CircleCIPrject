@@ -17,3 +17,6 @@ jobs:
           command: ./gradlew assembleDebug
 
 workflows:
+  testappio-realease:
+    job:
+      - built-and-upload
