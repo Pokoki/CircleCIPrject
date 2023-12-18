@@ -8,6 +8,8 @@ jobs:
     executor:
       name: android/android-machine
     environment:
+      api_token: 50842f50-5aaf-432b-9010-a714f3d26817
+      app_id: 5n28jKrEL1
       release_notes: "Release of the Sample app"
       notify: true
     steps:
