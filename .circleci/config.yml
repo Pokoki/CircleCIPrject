@@ -25,7 +25,8 @@ jobs:
           name: Assemble debug build
           command: ./gradlew assembleDebug
       - run:
-        - name: Try test
+        - name: Run Unit tests
+          command: ./gradlew test
           store_test_results:
               path: test-results
       - run:
