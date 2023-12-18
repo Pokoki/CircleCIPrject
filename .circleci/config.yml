@@ -19,4 +19,4 @@ jobs:
 workflows:
   testappio-realease:
     jobs:
-      - built-and-upload
+      - build-and-upload
